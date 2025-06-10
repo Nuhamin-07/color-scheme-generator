@@ -30,7 +30,8 @@ button {
 
 @media (max-width: 480px) {
   .container {
-    max-width: 100%;
-    margin: 1em auto;
+    max-width: 80%;
+    margin: 1em 0;
+    box-sizing: border-box;
   }
 }
