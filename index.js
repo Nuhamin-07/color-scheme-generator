@@ -25,14 +25,14 @@ document.getElementById("submit-color").addEventListener("click", function () {
       let html = "";
       for (let i = 0; i < colorVal.length; i++) {
         html += `
-        <div class="color-container pick-color">
+        <div class="color-container">
             <div
             style="
                 width: 100%;
                 height: 80vh;
                 background-color: ${colorVal[i]};">
             </div>
-            <p class="pick-color" id="hex-code">${colorVal[i]}</p>
+            <p id="hex-code">${colorVal[i]}</p>
         </div>
         
     `;
